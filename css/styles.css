@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.masonry-container{
+  columns: 5 320px;
+  column-gap: 1em;
+}
+
+.masonry-item{
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+.masonry-item:hover{
+  opacity: 0.5;
+}
+
+.img-item{
+  width: 320px;
+}
