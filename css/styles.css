@@ -80,8 +80,8 @@ body{
 
 .masonry-container{
   margin: 15px;
-  columns: 5 300px;
-  column-gap: 1em;
+  columns: 2 200px;
+  column-gap: 2em;
 }
 
 .image-container{
