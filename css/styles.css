@@ -84,6 +84,21 @@ body{
   column-gap: 1em;
 }
 
+.image-container{
+  position: relative;
+  display: inline-block;
+}
+
+.info-album{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .masonry-item{
   max-width: 100%;
   margin-bottom: 1em;
